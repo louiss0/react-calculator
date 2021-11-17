@@ -1,8 +1,10 @@
+import { defineConfig ,  } from "windicss/helpers"
 
-module.exports = {
+
+export default  defineConfig({
+    
     plugins: [
         require("windicss/plugin/forms"),
         require("windicss/plugin/scroll-snap"),
-
     ]
-}
+})

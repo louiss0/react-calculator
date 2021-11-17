@@ -20,6 +20,9 @@ module.exports = merge(config, {
 		poll: 1000,
 		ignored: "**/node_modules"
 	},
+	optimization: {
+		runtimeChunk: "single"
+	},
 	devServer: {
 		headers: {
 			"Content-Security-Policy":
